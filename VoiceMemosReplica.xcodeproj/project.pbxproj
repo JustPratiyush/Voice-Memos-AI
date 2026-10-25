@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+
+	};
+	objectVersion = 56;
+	objects = {
+		D396CB17052AEDD14FFB585B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DemoLibrary.swift;
+			sourceTree = "<group>";
+		};
+		5E2C1CED003F4AE7A114E3E3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = EditorView.swift;
+			sourceTree = "<group>";
+		};
+		3205741E8897E26CC00E0F05 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LibraryView.swift;
+			sourceTree = "<group>";
+		};
+		B067F951810C23D6F06648AC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PlaybackView.swift;
+			sourceTree = "<group>";
+		};
+		A14838AF695BEBE3344140DB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = RecordingView.swift;
+			sourceTree = "<group>";
+		};
+		0E45B5B38993934084A8EB6C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SettingsView.swift;
+			sourceTree = "<group>";
+		};
+		B40E2E0836251F29C4526789 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = VoiceMemosApp.swift;
+			sourceTree = "<group>";
+		};
+		EE1D3AA6590F56C7A675D9FE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = WaveformView.swift;
+			sourceTree = "<group>";
+		};
+		8CC874A51CB352FB04857851 = {
+			isa = PBXGroup;
+			children = (
+				D396CB17052AEDD14FFB585B,
+				5E2C1CED003F4AE7A114E3E3,
+				3205741E8897E26CC00E0F05,
+				B067F951810C23D6F06648AC,
+				A14838AF695BEBE3344140DB,
+				0E45B5B38993934084A8EB6C,
+				B40E2E0836251F29C4526789,
+				EE1D3AA6590F56C7A675D9FE,
+			);
+			path = Sources/VoiceMemosApp;
+			sourceTree = "<group>";
+		};
+		2CA85D3271841D79438987D0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AudioAnalysis.swift;
+			sourceTree = "<group>";
+		};
+		C78896C2861DCA9436F8121E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AudioController.swift;
+			sourceTree = "<group>";
+		};
+		7349FC37304EC1ADEC2A713E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = EditingService.swift;
+			sourceTree = "<group>";
+		};
+		974B8AA437B1E17370EDDBDC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LibraryStore.swift;
+			sourceTree = "<group>";
+		};
+		65358B30E6DA25B30EC25EBD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LocationNamingService.swift;
+			sourceTree = "<group>";
+		};
+		E75EB1E6F385DA1D18FE7274 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Models.swift;
+			sourceTree = "<group>";
+		};
+		7DBDB3EA1FFC558B84817250 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = TranscriptionService.swift;
+			sourceTree = "<group>";
+		};
+		33BCCE1DE47DB7481BC34307 = {
+			isa = PBXGroup;
+			children = (
+				2CA85D3271841D79438987D0,
+				C78896C2861DCA9436F8121E,
+				7349FC37304EC1ADEC2A713E,
+				974B8AA437B1E17370EDDBDC,
+				65358B30E6DA25B30EC25EBD,
+				E75EB1E6F385DA1D18FE7274,
+				7DBDB3EA1FFC558B84817250,
+			);
+			path = Sources/VoiceMemosCore;
+			sourceTree = "<group>";
+		};
+		549B2451BDEE9ED179EC308D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = StandaloneSupport.swift;
+			sourceTree = "<group>";
+		};
+		47CDA51A38D7B56F887AC185 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = VoiceMemosCoreTests.swift;
+			sourceTree = "<group>";
+		};
+		6A4350356114FE8C9066DF2F = {
+			isa = PBXGroup;
+			children = (
+				549B2451BDEE9ED179EC308D,
+				47CDA51A38D7B56F887AC185,
+			);
+			path = Tests/VoiceMemosCoreTests;
+			sourceTree = "<group>";
+		};
+		5362F564584CED45A5B13EC8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			path = AppIcon.icns;
+			sourceTree = "<group>";
+		};
+		B8FA18644A594FE11B39A425 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		5318E19337B000B06F194979 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		1363F4A39BE978D9EA71F36E = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = VoiceMemos.entitlements;
+			sourceTree = "<group>";
+		};
+		369366657F0CC118760331FE = {
+			isa = PBXGroup;
+			children = (
+				5362F564584CED45A5B13EC8,
+				B8FA18644A594FE11B39A425,
+				5318E19337B000B06F194979,
+				1363F4A39BE978D9EA71F36E,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		987708797BB0EBB61663535C = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.script.sh;
+			path = "build-macos.sh";
+			sourceTree = "<group>";
+		};
+		D27C8868A8C44608A44DAB4F = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.script.python;
+			path = "generate-xcode-project.py";
+			sourceTree = "<group>";
+		};
+		4FB64D6C050BDAFBE4DCD1FA = {
+			isa = PBXGroup;
+			children = (
+				987708797BB0EBB61663535C,
+				D27C8868A8C44608A44DAB4F,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		81F31879437340D5CD6ED968 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = "Voice Memos Replica.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBF77FA8E11685D013DA1694 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			path = VoiceMemosCore.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70F09BF32F6D77A92FF191B4 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = VoiceMemosCoreTests.xctest;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE7805B56D1DCAFAA071416F = {
+			isa = PBXGroup;
+			children = (
+				81F31879437340D5CD6ED968,
+				EBF77FA8E11685D013DA1694,
+				70F09BF32F6D77A92FF191B4,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0596BBDB4DCC95D5D4F10C = {
+			isa = PBXGroup;
+			sourceTree = "<group>";
+			children = (
+				8CC874A51CB352FB04857851,
+				33BCCE1DE47DB7481BC34307,
+				6A4350356114FE8C9066DF2F,
+				369366657F0CC118760331FE,
+				4FB64D6C050BDAFBE4DCD1FA,
+				AE7805B56D1DCAFAA071416F,
+			);
+		};
+		95AA40661CB6DF07E4144EF2 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65C6F64AAF575DB1ACED7604 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FDBBA07DF523361115A9995 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AA40661CB6DF07E4144EF2,
+				65C6F64AAF575DB1ACED7604,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E67DDB24008359A3BF8F1AB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 0.1.0;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = Resources/VoiceMemos.entitlements;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.recreation.VoiceMemos;
+				PRODUCT_MODULE_NAME = VoiceMemosApp;
+				PRODUCT_NAME = "Voice Memos Replica";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CCF7D3BC6FBEDAE8FA277D07 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 0.1.0;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = Resources/VoiceMemos.entitlements;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.recreation.VoiceMemos;
+				PRODUCT_MODULE_NAME = VoiceMemosApp;
+				PRODUCT_NAME = "Voice Memos Replica";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		B3358DC2558DB0055C29337D = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E67DDB24008359A3BF8F1AB,
+				CCF7D3BC6FBEDAE8FA277D07,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D45CA4DCAC8BF61C6A245A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.recreation.VoiceMemos.Core;
+				PRODUCT_NAME = VoiceMemosCore;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		479FE1DECC0EF3528CC1D91C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.recreation.VoiceMemos.Core;
+				PRODUCT_NAME = VoiceMemosCore;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F0C03C3D5FE48944D9A8BA76 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D45CA4DCAC8BF61C6A245A,
+				479FE1DECC0EF3528CC1D91C,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459B5086DA86E73526A40FD3 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 0.1.0;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.recreation.VoiceMemos.CoreTests;
+				PRODUCT_NAME = VoiceMemosCoreTests;
+				SKIP_INSTALL = YES;
+				"TEST_HOST[sdk=macosx*]" = "$(BUILT_PRODUCTS_DIR)/Voice Memos Replica.app/Contents/MacOS/Voice Memos Replica";
+				"TEST_HOST[sdk=iphone*]" = "$(BUILT_PRODUCTS_DIR)/Voice Memos Replica.app/Voice Memos Replica";
+			};
+			name = Debug;
+		};
+		36627167E338545F517A0AC0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 0.1.0;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.recreation.VoiceMemos.CoreTests;
+				PRODUCT_NAME = VoiceMemosCoreTests;
+				SKIP_INSTALL = YES;
+				"TEST_HOST[sdk=macosx*]" = "$(BUILT_PRODUCTS_DIR)/Voice Memos Replica.app/Contents/MacOS/Voice Memos Replica";
+				"TEST_HOST[sdk=iphone*]" = "$(BUILT_PRODUCTS_DIR)/Voice Memos Replica.app/Voice Memos Replica";
+			};
+			name = Release;
+		};
+		22E3B1E20D33EC3C9E42910B = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459B5086DA86E73526A40FD3,
+				36627167E338545F517A0AC0,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F6604AA98A301EB81CF64A = {
+			isa = PBXBuildFile;
+			fileRef = 2CA85D3271841D79438987D0;
+		};
+		7A9F869F371AFB3D5E47FA25 = {
+			isa = PBXBuildFile;
+			fileRef = C78896C2861DCA9436F8121E;
+		};
+		F551D4AF4B1B514E7B7E18DA = {
+			isa = PBXBuildFile;
+			fileRef = 7349FC37304EC1ADEC2A713E;
+		};
+		7CCA833413BF905C123D327B = {
+			isa = PBXBuildFile;
+			fileRef = 974B8AA437B1E17370EDDBDC;
+		};
+		217EC83C9F51795A2F0ECFA1 = {
+			isa = PBXBuildFile;
+			fileRef = 65358B30E6DA25B30EC25EBD;
+		};
+		98743CC564B0C489413D0A61 = {
+			isa = PBXBuildFile;
+			fileRef = E75EB1E6F385DA1D18FE7274;
+		};
+		E202E387A76094B0E7846777 = {
+			isa = PBXBuildFile;
+			fileRef = 7DBDB3EA1FFC558B84817250;
+		};
+		393D4E97276B100A925B058C = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F6604AA98A301EB81CF64A,
+				7A9F869F371AFB3D5E47FA25,
+				F551D4AF4B1B514E7B7E18DA,
+				7CCA833413BF905C123D327B,
+				217EC83C9F51795A2F0ECFA1,
+				98743CC564B0C489413D0A61,
+				E202E387A76094B0E7846777,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7222DA9984395A1793685D8 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6483EDEBCEA43E44FC4D7D4 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CC2493604B13F9FCFC73FE = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C03C3D5FE48944D9A8BA76;
+			buildPhases = (
+				393D4E97276B100A925B058C,
+				F7222DA9984395A1793685D8,
+				C6483EDEBCEA43E44FC4D7D4,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+
+			);
+			name = VoiceMemosCore;
+			productName = VoiceMemosCore;
+			productReference = EBF77FA8E11685D013DA1694;
+			productType = "com.apple.product-type.framework";
+		};
+		1DA22539809218F0E7BB2C3F = {
+			isa = PBXBuildFile;
+			fileRef = EBF77FA8E11685D013DA1694;
+			settings = {
+				ATTRIBUTES = (
+					CodeSignOnCopy,
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		5767DE5C094791C2266FDD05 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1DA22539809218F0E7BB2C3F,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A3C68C9F0225456983BA25 = {
+			isa = PBXBuildFile;
+			fileRef = D396CB17052AEDD14FFB585B;
+		};
+		64E012B50C77CFBAC095E9E1 = {
+			isa = PBXBuildFile;
+			fileRef = 5E2C1CED003F4AE7A114E3E3;
+		};
+		1D864B82803AB0E4A7A7145F = {
+			isa = PBXBuildFile;
+			fileRef = 3205741E8897E26CC00E0F05;
+		};
+		475623C73E3530E3304E8C3E = {
+			isa = PBXBuildFile;
+			fileRef = B067F951810C23D6F06648AC;
+		};
+		79FB4E5F6D1C3697518AA8D6 = {
+			isa = PBXBuildFile;
+			fileRef = A14838AF695BEBE3344140DB;
+		};
+		2A0C8CAABEA66FFEC028AA02 = {
+			isa = PBXBuildFile;
+			fileRef = 0E45B5B38993934084A8EB6C;
+		};
+		9C99619EFA31EE85D6EC31C4 = {
+			isa = PBXBuildFile;
+			fileRef = B40E2E0836251F29C4526789;
+		};
+		537468E9D885604CC795290B = {
+			isa = PBXBuildFile;
+			fileRef = EE1D3AA6590F56C7A675D9FE;
+		};
+		17655138DE091C505416ABEA = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A3C68C9F0225456983BA25,
+				64E012B50C77CFBAC095E9E1,
+				1D864B82803AB0E4A7A7145F,
+				475623C73E3530E3304E8C3E,
+				79FB4E5F6D1C3697518AA8D6,
+				2A0C8CAABEA66FFEC028AA02,
+				9C99619EFA31EE85D6EC31C4,
+				537468E9D885604CC795290B,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F277AA23D414B90E3F60E1D9 = {
+			isa = PBXBuildFile;
+			fileRef = EBF77FA8E11685D013DA1694;
+		};
+		1B85B821D2F93F337F70D49F = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F277AA23D414B90E3F60E1D9,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008F49B6DB16C443015FDDA4 = {
+			isa = PBXBuildFile;
+			fileRef = B8FA18644A594FE11B39A425;
+		};
+		D18FD5E61A9286359343951E = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008F49B6DB16C443015FDDA4,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA505E4BAD6C097B18162E0 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244210E48437B6556980A702;
+			proxyType = 1;
+			remoteGlobalIDString = C4CC2493604B13F9FCFC73FE;
+			remoteInfo = VoiceMemosCore;
+		};
+		DF4CF983D69820CC84847059 = {
+			isa = PBXTargetDependency;
+			target = C4CC2493604B13F9FCFC73FE;
+			targetProxy = 7BA505E4BAD6C097B18162E0;
+		};
+		8C1A045E96B998B40533C7FF = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3358DC2558DB0055C29337D;
+			buildPhases = (
+				17655138DE091C505416ABEA,
+				1B85B821D2F93F337F70D49F,
+				D18FD5E61A9286359343951E,
+				5767DE5C094791C2266FDD05,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+				DF4CF983D69820CC84847059,
+			);
+			name = VoiceMemosReplica;
+			productName = "Voice Memos Replica";
+			productReference = 81F31879437340D5CD6ED968;
+			productType = "com.apple.product-type.application";
+		};
+		BD9105ED5F6719C76652C97C = {
+			isa = PBXBuildFile;
+			fileRef = 549B2451BDEE9ED179EC308D;
+		};
+		256DFDD494CAFAD82230537E = {
+			isa = PBXBuildFile;
+			fileRef = 47CDA51A38D7B56F887AC185;
+		};
+		D7934D1E5431E43D00EE518B = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9105ED5F6719C76652C97C,
+				256DFDD494CAFAD82230537E,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EDF334BACA5286CED69955 = {
+			isa = PBXBuildFile;
+			fileRef = EBF77FA8E11685D013DA1694;
+		};
+		EEA7B40FF0F394BC78EAA36E = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EDF334BACA5286CED69955,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6A4E941DE57E85FA5BABF0 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128609F1B4E5D3CDF0D660E4 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244210E48437B6556980A702;
+			proxyType = 1;
+			remoteGlobalIDString = 8C1A045E96B998B40533C7FF;
+			remoteInfo = VoiceMemosReplica;
+		};
+		DA05B0C0C8BCE863BE84B43E = {
+			isa = PBXTargetDependency;
+			target = 8C1A045E96B998B40533C7FF;
+			targetProxy = 128609F1B4E5D3CDF0D660E4;
+		};
+		9C13F0236B39A163C7F37262 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244210E48437B6556980A702;
+			proxyType = 1;
+			remoteGlobalIDString = C4CC2493604B13F9FCFC73FE;
+			remoteInfo = VoiceMemosCore;
+		};
+		3FFB4EFED02365DC1A9BC727 = {
+			isa = PBXTargetDependency;
+			target = C4CC2493604B13F9FCFC73FE;
+			targetProxy = 9C13F0236B39A163C7F37262;
+		};
+		2ADDEE89B29C55E11126D89F = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E3B1E20D33EC3C9E42910B;
+			buildPhases = (
+				D7934D1E5431E43D00EE518B,
+				EEA7B40FF0F394BC78EAA36E,
+				9F6A4E941DE57E85FA5BABF0,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+				DA05B0C0C8BCE863BE84B43E,
+				3FFB4EFED02365DC1A9BC727,
+			);
+			name = VoiceMemosCoreTests;
+			productName = VoiceMemosCoreTests;
+			productReference = 70F09BF32F6D77A92FF191B4;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		244210E48437B6556980A702 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8C1A045E96B998B40533C7FF = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					C4CC2493604B13F9FCFC73FE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2ADDEE89B29C55E11126D89F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8C1A045E96B998B40533C7FF;
+					};
+				};
+			};
+			buildConfigurationList = 6FDBBA07DF523361115A9995;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0596BBDB4DCC95D5D4F10C;
+			productRefGroup = AE7805B56D1DCAFAA071416F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1A045E96B998B40533C7FF,
+				C4CC2493604B13F9FCFC73FE,
+				2ADDEE89B29C55E11126D89F,
+			);
+		};
+	};
+	rootObject = 244210E48437B6556980A702;
+}

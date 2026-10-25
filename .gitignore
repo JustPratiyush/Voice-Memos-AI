@@ -1,0 +1,11 @@
+.build/
+build/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.log
+
+# Local reverse-engineering captures; publish the authored summaries only.
+Research/*
+!Research/*.md
