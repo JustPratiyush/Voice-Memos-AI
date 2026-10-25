@@ -4,6 +4,10 @@ A runnable macOS app and shared iPhone/iPad source project, reconstructed from t
 
 **This is a working reconstruction of the core workflows, not a complete or verified one-to-one clone of Apple's entire app.** The remaining differences and validation gaps are listed in [PARITY.md](PARITY.md). No new generative-AI features have been added.
 
+## Future product direction
+
+The planned intelligence layer adds open-model transcription, evidence research, approved personal memory, and a sourced personal debrief. These are future plans, not implemented features. The 25 October 2026 planning baseline is in [PROJECT_MEMORY.md](PROJECT_MEMORY.md), with a [product brief](docs/PRODUCT_BRIEF.md), [roadmap and open decisions](docs/ROADMAP.md), [evaluation plan](docs/EVALUATION_PLAN.md), and [source notes](docs/PLANNING_SOURCES.md).
+
 ## Run on this Mac
 
 Build the app using the command below, then open **`build/Voice Memos Replica.app`**. Generated app bundles are not committed.
